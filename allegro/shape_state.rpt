@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : PULSE_MODULATION.brd                          )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Tue Jul 30 17:44:31 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 1 out of 1
+  Current fill mode         : SMOOTH
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+       State: Out of date  Point on shape: (95.000 5.000)  Net: GND

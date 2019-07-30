@@ -1,0 +1,92 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : PULSE_MODULATION.brd                          )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Jul 30 15:08:42 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\USER\DESKTOP\WORKSPACE\PULSE_MODULATION\allegro'
+Design Directory:            'C:/Users/user/Desktop/workspace/PULSE_MODULATION/allegro'
+Old design name:             'C:/Users/user/Desktop/workspace/PULSE_MODULATION/allegro/PULSE_MODULATION.brd'
+New design name:             'C:/Users/user/Desktop/workspace/PULSE_MODULATION/allegro/PULSE_MODULATION.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\USER\DESKTOP\WORKSPACE\PULSE_MODULATION\allegro C:\Users\user\Desktop\workspace\PULSE_MODULATION\allegro\PULSE_MODULATION.brd C:\Users\user\Desktop\workspace\PULSE_MODULATION\allegro\PULSE_MODULATION.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/PULSE_MODULATION/allegro/pstchip.dat 
+   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/PULSE_MODULATION/allegro/pstchip.dat (00:00:00.09)
+Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/PULSE_MODULATION/allegro/pstxprt.dat 
+   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/PULSE_MODULATION/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/PULSE_MODULATION/allegro/pstxnet.dat 
+   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/PULSE_MODULATION/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/symbols 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/USERS/USER/DESKTOP/WORKSPACE/PCD_LIB/psm/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/padstacks 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/user/Desktop/workspace/pcd_lib/pad/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 30 15:08:42 2019
+   DESIGN NAME : 'PULSE_MODULATION'
+   PACKAGING ON Mar  2 2016 00:37:24
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:05:22
+elapsed time  0:00:00
+

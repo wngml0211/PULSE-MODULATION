@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : PULSE_MODULATION.brd                          )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Tue Jul 30 17:33:46 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 5
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (22.462 42.662)  Net: GND
+	Point on shape: (14.280 42.662)  Net: GND
+	Point on shape: (17.382 42.662)  Net: GND
+	Point on shape: (19.922 42.662)  Net: GND
+	Point on shape: (47.862 50.282)  Net: GND

@@ -1,0 +1,14 @@
+Date and Time : 07/30/19 11:41:46
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1608): Net has no driving source CLOCK 
+                    SCHEMATIC1, PAGE1  (109.22, 66.04) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections CLOCK 
+                    SCHEMATIC1, PAGE1  (109.22, 66.04) 
+
+Checking For Unconnected Bus Nets
